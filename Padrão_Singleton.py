@@ -89,7 +89,7 @@ if __name__ == "__main__":
                 registry.register_user(username, email)
             except ValueError as e:
                 print(e)
-
+ 
         elif choice == "2":
             users = registry.list_users()
             if users:

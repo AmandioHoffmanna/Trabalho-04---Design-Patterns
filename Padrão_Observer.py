@@ -6,7 +6,6 @@ class Observer(Protocol):
     def update(self, event: str, data: dict):
         pass
 
-
 class NotificationSystem:
     """
     Classe que gerencia notificações usando o padrão Observer.
@@ -26,7 +25,6 @@ class NotificationSystem:
         """Notifica todos os observadores sobre um evento."""
         for observer in self._observers:
             observer.update(event, data)
-
 
 class UserRegistry:
     """
@@ -50,7 +48,6 @@ class UserRegistry:
         """Lista todos os usuários registrados."""
         return self._users
 
-
 class EmailNotificationService:
     """
     Observador que envia notificações por e-mail.
@@ -59,7 +56,6 @@ class EmailNotificationService:
         if event == "USER_REGISTERED":
             print(f"[Email] Bem-vindo(a), {data['username']}! Um e-mail foi enviado para {data['email']}.")
 
-
 class AuditLogService:
     """
     Observador que registra eventos em logs.
@@ -67,7 +63,6 @@ class AuditLogService:
     def update(self, event: str, data: dict):
         if event == "USER_REGISTERED":
             print(f"[Log] Usuário registrado: {data['username']} ({data['email']}).")
-
 
 # Testes
 if __name__ == "__main__":

@@ -118,4 +118,17 @@ Adicionado um menu que permite:
 
 Este projeto combina os padrões **Singleton** e **Observer** para resolver problemas de gerenciamento de instância única e notificação de eventos. Ele é extensível, seguro para múltiplos threads e pronto para escalabilidade em aplicações modernas.
 
-Alunos: Amandio Arnoldo Hoffmann e Vinícius Da Veiga
+## Como Rodar o projeto?
+
+Basta ter o Python instalado, não sendo necessário configuraçãoes, somente rodar o python normal via terminal. 
+
+## Porque escolhermos Python:
+
+Clareza e Simplicidade: Python possui uma sintaxe limpa, tornando o código mais legível e fácil de manter.
+Suporte Nativo a Threads: Python fornece bibliotecas nativas como threading para implementar funcionalidades como thread-safety de forma simples e eficaz.
+Biblioteca Rica: Recursos como o módulo re facilitam tarefas comuns, como validação de e-mails.
+Flexibilidade: Python é altamente adaptável para diferentes contextos, como simulação de sistemas, aprendizado de máquina e APIs.
+Compatibilidade Multiplataforma: Ideal para desenvolvimento rápido em diferentes sistemas operacionais.
+Além disso, Python é amplamente utilizado em projetos educacionais devido à sua curva de aprendizado suave e à extensa comunidade de suporte, o que facilita a pesquisa e resolução de problemas.
+
+Alunos: Amandio Arnoldo Hoffmann e Vinícius da Veiga
