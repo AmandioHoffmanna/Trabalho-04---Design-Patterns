@@ -1,4 +1,4 @@
-# User Management System
+# Trabalho 04 - Design Patterns
 
 Este projeto implementa um sistema de gerenciamento de usuários utilizando os padrões de projeto **Singleton** e **Observer**.
 
