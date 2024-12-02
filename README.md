@@ -131,4 +131,4 @@ Flexibilidade: Python é altamente adaptável para diferentes contextos, como si
 Compatibilidade Multiplataforma: Ideal para desenvolvimento rápido em diferentes sistemas operacionais.
 Além disso, Python é amplamente utilizado em projetos educacionais devido à sua curva de aprendizado suave e à extensa comunidade de suporte, o que facilita a pesquisa e resolução de problemas.
 
-Alunos: Amandio Arnoldo Hoffmann e Vinícius da Veiga
+Alunos: [Amandio Arnoldo Hoffmann](https://github.com/AmandioHoffmanna) e [Vinícius da Veiga](https://github.com/viniciusdaveigaa)
